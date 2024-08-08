@@ -332,6 +332,60 @@ body{
         height: 670px;
         margin: 30px auto;
     }
+
+    .exercise-content {
+        color: white;
+        /* width: 50%; */
+      }
+      .exercise-content h2 {
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom: 20px;
+      }
+      .exercise-content p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 42px;
+      }
+      .images img {
+        width: 413px;
+        height: 240px;
+        /* width: 100%; */
+        border-radius: 20px;
+        position: relative;
+      }
+      .images p {
+        position: absolute;
+        margin-bottom: 50px;
+        margin-top: -220px;
+        margin-left: 20px;
+        color: black;
+        font-weight: 600;
+      }
+      .images-two img {
+        width: 413px;
+        height: 240px;
+        /* width: 100%; */
+        border-radius: 20px;
+        position: relative;
+      }
+      .images-two p {
+        position: absolute;
+        margin-top: -40px;
+        margin-left: 6px;
+        font-weight: 500;
+        color: white;
+      }
+      .exercise-name {
+        color: white;
+      }
+      .image-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
     /* media query */
     @media screen and (max-width:576px) {
         /* 3rd part starts */
